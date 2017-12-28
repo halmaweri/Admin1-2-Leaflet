@@ -1,0 +1,18 @@
+{
+  "name": "power-bi-leaflet",
+  "version": "1.0.0",
+  "description": "PowerBI visualization with leaflet",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pbi": "pbiviz",
+    "pbicerti": "pbiviz --install-cert",
+    "package": "pbiviz package",
+    "start": "pbiviz start"
+  },
+  "author": "Jotham Apaloo",
+  "license": "ISC",
+  "dependencies": {
+    "powerbi-visuals-tools": "^1.1.0"
+  }
+}
